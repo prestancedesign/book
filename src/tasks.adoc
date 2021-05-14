@@ -271,7 +271,7 @@ function __bb_complete_tasks
   printf "%s\n" $__bb_tasks
 end
 
-complete -f -c bb -n '__fish_seen_subcommand_from tasks' -a "(__bb_complete_tasks)" -d 'List tasks'
+complete -f -c bb -a "(__bb_complete_tasks)" -d 'List tasks'
 ----
 
 === Tasks API
